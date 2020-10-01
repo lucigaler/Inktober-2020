@@ -1,0 +1,95 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0px;
+  font-size: 1.1rem;
+  font-family: Lora, sans-serif;
+  background-color: PeachPuff; /* Older browsers */
+  background-image: url("./leaf-background-wide-transparent-2.jpg");
+}
+
+header {
+  padding: 60px;
+  background-image: url("./leaf-background-wide-dark.jpg");
+  text-align: center;
+  color: Bisque;
+}
+
+.link {
+  font-size: 1.2rem;
+  color: Black;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+}
+
+.description {
+  text-align: justify;
+  width: auto;
+}
+
+.center {
+  margin: auto;
+  width: 60%;
+}
+
+table {
+  background-color: #FFEED9;
+  margin: auto;
+  table-layout: fixed;
+  width: 80%;
+  word-wrap: break-word;
+  border: 1px solid Orange;
+  border-collapse: collapse;
+}
+
+table, td, th {
+  font-size: 0.9rem;
+  padding: 3px;
+}
+
+td {
+  height: 25px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.clean {
+  border-bottom: 1px solid Orange;
+  border-top: none;
+  border-left: 1px solid Orange;
+  border-right: 1px solid Orange;
+  text-align: center;
+}
+
+.cal-number {
+  border-left: 1px solid Orange;
+  border-right: 1px solid Orange;
+}
+
+th {
+  height: auto;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid Orange;
+}
+
+.caption {
+  font-size: 1rem;
+  padding: 5px;
+}
+
+.cal-link {
+  color: Black;
+}
+
+footer {
+  padding: 10px;
+  color: DarkOrange;
+  text-align: center;
+}
